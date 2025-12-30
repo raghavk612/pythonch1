@@ -1,0 +1,6 @@
+date,hour,minute=input().split()
+date=int(date)
+hour=int(hour)
+minute=int(minute)
+timepassed= ((date-11)*24*60) + ((hour-11)*60) + (minute-11)
+print(timepassed)
